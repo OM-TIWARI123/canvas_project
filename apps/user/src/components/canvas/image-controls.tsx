@@ -58,7 +58,7 @@ export function ImageControls({
               id="width"
               type="range"
               min="50"
-              max="500"
+              max="600"
               value={imageWidth}
               onChange={(e) => onWidthChange(Number(e.target.value))}
               className="w-full"
@@ -71,7 +71,7 @@ export function ImageControls({
               id="height"
               type="range"
               min="50"
-              max="500"
+              max="600"
               value={imageHeight}
               onChange={(e) => onHeightChange(Number(e.target.value))}
               className="w-full"
