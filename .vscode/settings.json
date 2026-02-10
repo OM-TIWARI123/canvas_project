@@ -1,0 +1,34 @@
+{
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "material-icon-theme.folders.associations": {
+    "eslint": "proto",
+    "(routes)": "routes",
+    "(auth)": "secure",
+    "(home)": "home",
+    "dashboard": "command",
+    "onboarding": "controller",
+    "(onboarding)": "controller"
+  },
+  "material-icon-theme.files.associations": {},
+  "material-icon-theme.files.customClones": [
+    {
+      "name": "user",
+      "base": "admin",
+      "color": "blue-500",
+      "folderNames": ["user", "users"]
+    }
+  ],
+  "files.watcherExclude": {
+    "**/routeTree.gen.ts": true
+  },
+  "search.exclude": {
+    "**/routeTree.gen.ts": true
+  },
+  "files.readonlyInclude": {
+    "**/routeTree.gen.ts": true
+  }
+}

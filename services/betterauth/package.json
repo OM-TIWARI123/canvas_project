@@ -1,0 +1,17 @@
+{
+  "name": "@services/betterauth",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@better-auth/stripe": "^1.4.18",
+    "@services/database": "workspace:*",
+    "@services/email": "workspace:*",
+    "better-auth": "^1.4.10",
+    "drizzle-orm": "^0.45.1",
+    "stripe": "^20.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3"
+  }
+}

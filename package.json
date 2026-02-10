@@ -1,0 +1,41 @@
+{
+  "name": "dspln",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "check-types": "turbo run check-types",
+    "db:generate": "pnpm --filter api db:generate",
+    "db:migrate": "pnpm --filter api db:migrate",
+    "db:push": "pnpm --filter api db:push",
+    "add:api": "pnpm --filter api add",
+    "add:admin": "pnpm --filter admin add",
+    "add:user": "pnpm --filter user add",
+    "add:ui": "pnpm --filter ui add",
+    "add:shadcn": "pnpm --filter ui ui",
+    "deploy:prod": "sst deploy --stage prod",
+    "deploy:staging": "sst deploy --stage staging",
+    "remove:prod": "sst remove --stage prod",
+    "remove:staging": "sst remove --stage staging",
+    "refresh:prod": "sst refresh --stage prod",
+    "refresh:staging": "sst refresh --stage staging",
+    "sync:env:staging": "./scripts/sync-github-env.sh staging",
+    "sync:env:production": "./scripts/sync-github-env.sh production"
+  },
+  "dependencies": {
+    "sst": "3.17.25"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "8.10.159",
+    "prettier": "^3.7.4",
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "turbo": "^2.7.6",
+    "typescript": "5.9.2"
+  },
+  "packageManager": "pnpm@10.28.1",
+  "engines": {
+    "node": ">=18"
+  }
+}

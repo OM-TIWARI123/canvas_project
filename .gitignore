@@ -1,0 +1,49 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Local env files
+.dev.vars
+.env
+.env.local
+.env.staging.local
+.env.production.local
+
+# Testing
+coverage
+
+# Turbo
+.turbo
+
+# Cursor
+.cursor
+
+# SST
+.sst
+
+# Vercel
+.vercel
+
+# Build Outputs
+.next
+out
+build
+dist
+.wrangler
+.output
+.tanstack
+.nitro
+
+# Debug
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Misc
+.DS_Store
+*.pem

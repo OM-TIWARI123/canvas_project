@@ -1,0 +1,23 @@
+{
+  "name": "@repo/utils",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {},
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "lodash.debounce": "^4.0.8",
+    "nuqs": "^2.8.6",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "zod": "^4.3.4"
+  },
+  "devDependencies": {
+    "@types/lodash.debounce": "^4.0.9",
+    "@types/node": "^25.0.3",
+    "@types/papaparse": "^5.5.2",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "5.9.2"
+  }
+}

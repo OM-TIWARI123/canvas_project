@@ -1,0 +1,10 @@
+packages:
+  - apps/*
+  - packages/*
+  - services/*
+
+onlyBuiltDependencies:
+  - '@parcel/watcher'
+  - aws-sdk
+  - esbuild
+  - unrs-resolver

@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "types": ["node"],
+    "lib": ["ESNext"],
+    "paths": {
+      "@services/email": ["../email/src"],
+      "@services/database/*": ["../database/src/*"]
+    }
+  }
+}
